@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontak</title>
+    <link rel="stylesheet" href="UTS.css">
+</head>
+<body class="soft-pink-background">
+    <header>
+        <nav>
+            <ul>
+                <li><a href="UTShome.html">Home</a></li>
+                <li><a href="UTSabout.html">About Me</a></li>
+                <li><a href="UTSprogramming.html">Pemrograman Web</a></li>
+                <li><a href="UTScontact.html">Kontak</a></li>
+            </ul>
+        </nav>
+        <button id="toggle-mode">🌙 Mode Gelap</button>
+    </header>
+    
+    <section id="contact" class="soft-pink-theme">
+        <h1>💌 Hubungi Saya 💌</h1>
+        <p>Silakan isi formulir di bawah ini atau klik langsung untuk menghubungi saya!</p>
+        
+        <div class="social-info">
+            <p><strong>Instagram:</strong> <a href="https://instagram.com/engynurr" target="_blank">@engynurr</a></p>
+            <p><strong>Discord:</strong> <a href="https://discord.com/users/impactoren" target="_blank">@impactoren</a></p>
+            <p><strong>Email:</strong> <a href="mailto:wayzenct00@gmail.com">wayzenct00@gmail.com</a></p>
+        </div>
+        
+        <form>
+            <label for="name">Nama:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="subject">Subjek:</label>
+            <input type="text" id="subject" name="subject" required>
+            
+            <label for="message">Pesan:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+            
+            <button type="button" onclick="alert('Maaf, fitur ini belum tersedia! Silakan hubungi saya via Instagram, Discord, atau Email.')">
+                Kirim Pesan
+                <script src="UTS.js"></script>
+            </button>
+        </form>
+    </section>
+</body>
+</html>
